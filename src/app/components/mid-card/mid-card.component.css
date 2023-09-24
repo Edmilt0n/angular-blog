@@ -13,6 +13,7 @@
     margin-right: 15px;
 }
 .mid-card__title h1 > a {
+    color: greenyellow;
     display: flex;
     font-size: 20px;
     margin-top:20px;
