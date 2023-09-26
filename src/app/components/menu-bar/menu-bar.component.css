@@ -19,11 +19,45 @@ flex-direction: row;
   .container_menu-bar > ul>li>a>img{
     margin-left: 15px;
     border-radius: 50%;
-    max-width: 90px;
-    max-height: 80px;
+    max-width: 70px;
+    max-height: 60px;
     }
 
   .linha {
     color: greenyellow;
 
   }
+  .Devs__Blog {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70PX;
+    background-color: black;
+    border-radius: 5px;
+    animation: mudarCor 2s linear infinite;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+  }
+  @keyframes mudarCor {
+    0% {
+      color: greenyellow; /* Cor inicial */
+    }
+    25% {
+      color: white; /* Cor aleatória 1 */
+    }
+    50% {
+      color: greenyellow; /* Cor aleatória 2 */
+    }
+    100% {
+      color: greenyellow; /* Cor aleatória 3 */
+    }
+    100% {
+      color: white; /* Cor aleatória 4 */
+    }
+  }
+

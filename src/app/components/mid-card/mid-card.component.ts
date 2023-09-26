@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-mid-card',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mid-card.component.css']
 })
 export class MidCardComponent implements OnInit {
+  @Input()
+  mImgDin:string=""
+  @Input()
+  tituloDinamico:string=""
+  @Input()
+  mDescDin:string=""
+  @Input()
+  id:string =""
 
   constructor() { }
 

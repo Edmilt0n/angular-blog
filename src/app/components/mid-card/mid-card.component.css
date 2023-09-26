@@ -16,14 +16,16 @@
     color: greenyellow;
     display: flex;
     font-size: 20px;
-    margin-top:20px;
+    margin-top:auto;
 }
 
 .mid-card__title >p  {
     margin-top: 8px;
   color: #CDD1D7;
   padding-left: 0;
-  font-size: 15px;
+  font-size: auto;
+  display: flex;
+  justify-content: center;
 }
 .linha{
     margin-top: 5px;
